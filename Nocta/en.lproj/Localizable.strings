@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Nocta
+
+  Created by MachOSX on 2/7/15.
+  Copyright (c) 2015 Ali Mahouk. All rights reserved.
+*/
+
+"PLAY" = "play";
+"REPLAY" = "play again";
+"BACK_TO_GAME" = "back to game";
+"NEXT_LEVEL" = "next level";
+"RATE" = "rate";
+"PLAYER_WON" = "YOU WIN!";
+"GAME_OVER" = "GAME OVER!";

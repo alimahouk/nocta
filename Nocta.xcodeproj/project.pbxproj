@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8603C3B71AD6D08B00E5DAA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603C3B61AD6D08B00E5DAA4 /* main.m */; };
+		8603C3C21AD6D08B00E5DAA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8603C3C11AD6D08B00E5DAA4 /* Images.xcassets */; };
+		8603C3D11AD6D08B00E5DAA4 /* NoctaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603C3D01AD6D08B00E5DAA4 /* NoctaTests.m */; };
+		8603C3EA1AD6D1AB00E5DAA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603C3DD1AD6D1AB00E5DAA4 /* AppDelegate.m */; };
+		8603C3EB1AD6D1AB00E5DAA4 /* SHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603C3E11AD6D1AB00E5DAA4 /* SHMainViewController.m */; };
+		8603C3EC1AD6D1AB00E5DAA4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8603C3E51AD6D1AB00E5DAA4 /* Localizable.strings */; };
+		8603C3EF1AD6D91600E5DAA4 /* SHDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603C3EE1AD6D91600E5DAA4 /* SHDot.m */; };
+		8603C3F51AD77D6800E5DAA4 /* SHState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603C3F41AD77D6800E5DAA4 /* SHState.m */; };
+		8603C3F81AD787ED00E5DAA4 /* SHVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603C3F71AD787ED00E5DAA4 /* SHVector.m */; };
+		868E50E71AD90DB100406FCC /* water_drip_001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 868E50E41AD90DB100406FCC /* water_drip_001.mp3 */; };
+		868E50E81AD90DB100406FCC /* water_drip_002.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 868E50E51AD90DB100406FCC /* water_drip_002.mp3 */; };
+		868E50E91AD90DB100406FCC /* water_drip_003.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 868E50E61AD90DB100406FCC /* water_drip_003.mp3 */; };
+		868E50EC1AD90DBB00406FCC /* SHSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 868E50EB1AD90DBB00406FCC /* SHSound.m */; };
+		868E50EE1AD90DE200406FCC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868E50ED1AD90DE200406FCC /* AudioToolbox.framework */; };
+		868E50F31AE01E6100406FCC /* klaxon_001.aif in Resources */ = {isa = PBXBuildFile; fileRef = 868E50F01AE01E6100406FCC /* klaxon_001.aif */; };
+		868E50F41AE01E6100406FCC /* pop_001.aif in Resources */ = {isa = PBXBuildFile; fileRef = 868E50F11AE01E6100406FCC /* pop_001.aif */; };
+		868E50F51AE01E6100406FCC /* pop_002.aif in Resources */ = {isa = PBXBuildFile; fileRef = 868E50F21AE01E6100406FCC /* pop_002.aif */; };
+		868E50F81AE0B3A800406FCC /* SHMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868E50F71AE0B3A800406FCC /* SHMenuViewController.m */; };
+		868E50FA1AE0B89000406FCC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868E50F91AE0B89000406FCC /* iAd.framework */; };
+		868E50FC1AE0C7F500406FCC /* pause.aif in Resources */ = {isa = PBXBuildFile; fileRef = 868E50FB1AE0C7F500406FCC /* pause.aif */; };
+		868E50FE1AE0D56B00406FCC /* gameover.aif in Resources */ = {isa = PBXBuildFile; fileRef = 868E50FD1AE0D56B00406FCC /* gameover.aif */; };
+		868E51001AE0DA4E00406FCC /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 868E50FF1AE0DA4E00406FCC /* tada.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8603C3CB1AD6D08B00E5DAA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8603C3A91AD6D08A00E5DAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8603C3B01AD6D08A00E5DAA4;
+			remoteInfo = Nocta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8603C3B11AD6D08B00E5DAA4 /* nocta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nocta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8603C3B51AD6D08B00E5DAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8603C3B61AD6D08B00E5DAA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8603C3C11AD6D08B00E5DAA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		8603C3CA1AD6D08B00E5DAA4 /* NoctaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoctaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8603C3CF1AD6D08B00E5DAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8603C3D01AD6D08B00E5DAA4 /* NoctaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoctaTests.m; sourceTree = "<group>"; };
+		8603C3DC1AD6D1AB00E5DAA4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8603C3DD1AD6D1AB00E5DAA4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8603C3E01AD6D1AB00E5DAA4 /* SHMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHMainViewController.h; sourceTree = "<group>"; };
+		8603C3E11AD6D1AB00E5DAA4 /* SHMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHMainViewController.m; sourceTree = "<group>"; };
+		8603C3E31AD6D1AB00E5DAA4 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8603C3E61AD6D1AB00E5DAA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		8603C3ED1AD6D91600E5DAA4 /* SHDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDot.h; sourceTree = "<group>"; };
+		8603C3EE1AD6D91600E5DAA4 /* SHDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDot.m; sourceTree = "<group>"; };
+		8603C3F31AD77D6800E5DAA4 /* SHState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHState.h; sourceTree = "<group>"; };
+		8603C3F41AD77D6800E5DAA4 /* SHState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHState.m; sourceTree = "<group>"; };
+		8603C3F61AD787ED00E5DAA4 /* SHVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHVector.h; sourceTree = "<group>"; };
+		8603C3F71AD787ED00E5DAA4 /* SHVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHVector.m; sourceTree = "<group>"; };
+		868E50E41AD90DB100406FCC /* water_drip_001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water_drip_001.mp3; sourceTree = "<group>"; };
+		868E50E51AD90DB100406FCC /* water_drip_002.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water_drip_002.mp3; sourceTree = "<group>"; };
+		868E50E61AD90DB100406FCC /* water_drip_003.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water_drip_003.mp3; sourceTree = "<group>"; };
+		868E50EA1AD90DBB00406FCC /* SHSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSound.h; sourceTree = "<group>"; };
+		868E50EB1AD90DBB00406FCC /* SHSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSound.m; sourceTree = "<group>"; };
+		868E50ED1AD90DE200406FCC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		868E50F01AE01E6100406FCC /* klaxon_001.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = klaxon_001.aif; sourceTree = "<group>"; };
+		868E50F11AE01E6100406FCC /* pop_001.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = pop_001.aif; sourceTree = "<group>"; };
+		868E50F21AE01E6100406FCC /* pop_002.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = pop_002.aif; sourceTree = "<group>"; };
+		868E50F61AE0B3A700406FCC /* SHMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHMenuViewController.h; sourceTree = "<group>"; };
+		868E50F71AE0B3A800406FCC /* SHMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHMenuViewController.m; sourceTree = "<group>"; };
+		868E50F91AE0B89000406FCC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		868E50FB1AE0C7F500406FCC /* pause.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = pause.aif; sourceTree = "<group>"; };
+		868E50FD1AE0D56B00406FCC /* gameover.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = gameover.aif; sourceTree = "<group>"; };
+		868E50FF1AE0DA4E00406FCC /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8603C3AE1AD6D08A00E5DAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868E50FA1AE0B89000406FCC /* iAd.framework in Frameworks */,
+				868E50EE1AD90DE200406FCC /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8603C3C71AD6D08B00E5DAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8603C3A81AD6D08A00E5DAA4 = {
+			isa = PBXGroup;
+			children = (
+				8603C3B31AD6D08B00E5DAA4 /* Nocta */,
+				8603C3CD1AD6D08B00E5DAA4 /* NoctaTests */,
+				8603C3B21AD6D08B00E5DAA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8603C3B21AD6D08B00E5DAA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8603C3B11AD6D08B00E5DAA4 /* nocta.app */,
+				8603C3CA1AD6D08B00E5DAA4 /* NoctaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8603C3B31AD6D08B00E5DAA4 /* Nocta */ = {
+			isa = PBXGroup;
+			children = (
+				8603C3E71AD6D1AB00E5DAA4 /* Resources */,
+				8603C3DA1AD6D1AB00E5DAA4 /* Classes */,
+				8603C3B41AD6D08B00E5DAA4 /* Supporting Files */,
+			);
+			path = Nocta;
+			sourceTree = "<group>";
+		};
+		8603C3B41AD6D08B00E5DAA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				868E50EF1AD90DED00406FCC /* Frameworks */,
+				8603C3E41AD6D1AB00E5DAA4 /* en.lproj */,
+				8603C3E31AD6D1AB00E5DAA4 /* Constants.h */,
+				8603C3B51AD6D08B00E5DAA4 /* Info.plist */,
+				8603C3B61AD6D08B00E5DAA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8603C3CD1AD6D08B00E5DAA4 /* NoctaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8603C3D01AD6D08B00E5DAA4 /* NoctaTests.m */,
+				8603C3CE1AD6D08B00E5DAA4 /* Supporting Files */,
+			);
+			path = NoctaTests;
+			sourceTree = "<group>";
+		};
+		8603C3CE1AD6D08B00E5DAA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8603C3CF1AD6D08B00E5DAA4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8603C3DA1AD6D1AB00E5DAA4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8603C3DB1AD6D1AB00E5DAA4 /* AppDelegate */,
+				8603C3DE1AD6D1AB00E5DAA4 /* Categories */,
+				8603C3DF1AD6D1AB00E5DAA4 /* Controllers */,
+				8603C3E21AD6D1AB00E5DAA4 /* External */,
+				8603C3ED1AD6D91600E5DAA4 /* SHDot.h */,
+				8603C3EE1AD6D91600E5DAA4 /* SHDot.m */,
+				868E50EA1AD90DBB00406FCC /* SHSound.h */,
+				868E50EB1AD90DBB00406FCC /* SHSound.m */,
+				8603C3F31AD77D6800E5DAA4 /* SHState.h */,
+				8603C3F41AD77D6800E5DAA4 /* SHState.m */,
+				8603C3F61AD787ED00E5DAA4 /* SHVector.h */,
+				8603C3F71AD787ED00E5DAA4 /* SHVector.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8603C3DB1AD6D1AB00E5DAA4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8603C3DC1AD6D1AB00E5DAA4 /* AppDelegate.h */,
+				8603C3DD1AD6D1AB00E5DAA4 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8603C3DE1AD6D1AB00E5DAA4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8603C3DF1AD6D1AB00E5DAA4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8603C3E01AD6D1AB00E5DAA4 /* SHMainViewController.h */,
+				8603C3E11AD6D1AB00E5DAA4 /* SHMainViewController.m */,
+				868E50F61AE0B3A700406FCC /* SHMenuViewController.h */,
+				868E50F71AE0B3A800406FCC /* SHMenuViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8603C3E21AD6D1AB00E5DAA4 /* External */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		8603C3E41AD6D1AB00E5DAA4 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8603C3E51AD6D1AB00E5DAA4 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		8603C3E71AD6D1AB00E5DAA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8603C3C11AD6D08B00E5DAA4 /* Images.xcassets */,
+				8603C3E81AD6D1AB00E5DAA4 /* Audio */,
+				8603C3E91AD6D1AB00E5DAA4 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8603C3E81AD6D1AB00E5DAA4 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				868E50FF1AE0DA4E00406FCC /* tada.mp3 */,
+				868E50FD1AE0D56B00406FCC /* gameover.aif */,
+				868E50FB1AE0C7F500406FCC /* pause.aif */,
+				868E50F01AE01E6100406FCC /* klaxon_001.aif */,
+				868E50F11AE01E6100406FCC /* pop_001.aif */,
+				868E50F21AE01E6100406FCC /* pop_002.aif */,
+				868E50E41AD90DB100406FCC /* water_drip_001.mp3 */,
+				868E50E51AD90DB100406FCC /* water_drip_002.mp3 */,
+				868E50E61AD90DB100406FCC /* water_drip_003.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		8603C3E91AD6D1AB00E5DAA4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		868E50EF1AD90DED00406FCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				868E50ED1AD90DE200406FCC /* AudioToolbox.framework */,
+				868E50F91AE0B89000406FCC /* iAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8603C3B01AD6D08A00E5DAA4 /* Nocta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8603C3D41AD6D08B00E5DAA4 /* Build configuration list for PBXNativeTarget "Nocta" */;
+			buildPhases = (
+				8603C3AD1AD6D08A00E5DAA4 /* Sources */,
+				8603C3AE1AD6D08A00E5DAA4 /* Frameworks */,
+				8603C3AF1AD6D08A00E5DAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nocta;
+			productName = Nocta;
+			productReference = 8603C3B11AD6D08B00E5DAA4 /* nocta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8603C3C91AD6D08B00E5DAA4 /* NoctaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8603C3D71AD6D08B00E5DAA4 /* Build configuration list for PBXNativeTarget "NoctaTests" */;
+			buildPhases = (
+				8603C3C61AD6D08B00E5DAA4 /* Sources */,
+				8603C3C71AD6D08B00E5DAA4 /* Frameworks */,
+				8603C3C81AD6D08B00E5DAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8603C3CC1AD6D08B00E5DAA4 /* PBXTargetDependency */,
+			);
+			name = NoctaTests;
+			productName = NoctaTests;
+			productReference = 8603C3CA1AD6D08B00E5DAA4 /* NoctaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8603C3A91AD6D08A00E5DAA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Ali Mahouk;
+				TargetAttributes = {
+					8603C3B01AD6D08A00E5DAA4 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = SA6MPMP77M;
+					};
+					8603C3C91AD6D08B00E5DAA4 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 8603C3B01AD6D08A00E5DAA4;
+					};
+				};
+			};
+			buildConfigurationList = 8603C3AC1AD6D08A00E5DAA4 /* Build configuration list for PBXProject "Nocta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8603C3A81AD6D08A00E5DAA4;
+			productRefGroup = 8603C3B21AD6D08B00E5DAA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8603C3B01AD6D08A00E5DAA4 /* Nocta */,
+				8603C3C91AD6D08B00E5DAA4 /* NoctaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8603C3AF1AD6D08A00E5DAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868E50E71AD90DB100406FCC /* water_drip_001.mp3 in Resources */,
+				868E50F51AE01E6100406FCC /* pop_002.aif in Resources */,
+				868E50F31AE01E6100406FCC /* klaxon_001.aif in Resources */,
+				868E50E91AD90DB100406FCC /* water_drip_003.mp3 in Resources */,
+				868E50FE1AE0D56B00406FCC /* gameover.aif in Resources */,
+				868E51001AE0DA4E00406FCC /* tada.mp3 in Resources */,
+				8603C3C21AD6D08B00E5DAA4 /* Images.xcassets in Resources */,
+				868E50FC1AE0C7F500406FCC /* pause.aif in Resources */,
+				868E50E81AD90DB100406FCC /* water_drip_002.mp3 in Resources */,
+				868E50F41AE01E6100406FCC /* pop_001.aif in Resources */,
+				8603C3EC1AD6D1AB00E5DAA4 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8603C3C81AD6D08B00E5DAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8603C3AD1AD6D08A00E5DAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868E50F81AE0B3A800406FCC /* SHMenuViewController.m in Sources */,
+				8603C3F51AD77D6800E5DAA4 /* SHState.m in Sources */,
+				8603C3F81AD787ED00E5DAA4 /* SHVector.m in Sources */,
+				8603C3EF1AD6D91600E5DAA4 /* SHDot.m in Sources */,
+				8603C3EB1AD6D1AB00E5DAA4 /* SHMainViewController.m in Sources */,
+				8603C3EA1AD6D1AB00E5DAA4 /* AppDelegate.m in Sources */,
+				8603C3B71AD6D08B00E5DAA4 /* main.m in Sources */,
+				868E50EC1AD90DBB00406FCC /* SHSound.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8603C3C61AD6D08B00E5DAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8603C3D11AD6D08B00E5DAA4 /* NoctaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8603C3CC1AD6D08B00E5DAA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8603C3B01AD6D08A00E5DAA4 /* Nocta */;
+			targetProxy = 8603C3CB1AD6D08B00E5DAA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8603C3E51AD6D1AB00E5DAA4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8603C3E61AD6D1AB00E5DAA4 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8603C3D21AD6D08B00E5DAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8603C3D31AD6D08B00E5DAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8603C3D51AD6D08B00E5DAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Nocta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = nocta;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8603C3D61AD6D08B00E5DAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Nocta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = nocta;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8603C3D81AD6D08B00E5DAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NoctaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nocta.app/Nocta";
+			};
+			name = Debug;
+		};
+		8603C3D91AD6D08B00E5DAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NoctaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nocta.app/Nocta";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8603C3AC1AD6D08A00E5DAA4 /* Build configuration list for PBXProject "Nocta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8603C3D21AD6D08B00E5DAA4 /* Debug */,
+				8603C3D31AD6D08B00E5DAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8603C3D41AD6D08B00E5DAA4 /* Build configuration list for PBXNativeTarget "Nocta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8603C3D51AD6D08B00E5DAA4 /* Debug */,
+				8603C3D61AD6D08B00E5DAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8603C3D71AD6D08B00E5DAA4 /* Build configuration list for PBXNativeTarget "NoctaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8603C3D81AD6D08B00E5DAA4 /* Debug */,
+				8603C3D91AD6D08B00E5DAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8603C3A91AD6D08A00E5DAA4 /* Project object */;
+}
