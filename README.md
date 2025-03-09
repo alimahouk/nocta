@@ -61,6 +61,8 @@ The project is structured with the following main components:
 
 ## License
 
-Released under an MIT license.
+This project is licensed under the terms found in the LICENSE file.
 
-Copyright © 2015 Ali Mahouk. All rights reserved.
+## Author
+
+Created by Ali Mahouk in 2015.
